@@ -19,3 +19,5 @@ Gemfile.lock
 # Private portfolio source files: do not publish directly.
 cv/
 certificaciones/
+# Future guides/blog section: keep unpublished drafts and structure local for now.
+guides/
