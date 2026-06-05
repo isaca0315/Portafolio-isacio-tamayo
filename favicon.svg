@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Isacio Tamayo favicon">
+  <defs>
+    <linearGradient id="mark" x1="8" y1="6" x2="56" y2="58" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ff3158"/>
+      <stop offset="1" stop-color="#00d4ff"/>
+    </linearGradient>
+    <filter id="glow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="2.2" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <rect width="64" height="64" rx="14" fill="#050807"/>
+  <path d="M13 17h38v7H36v25h-8V24H13z" fill="url(#mark)" filter="url(#glow)"/>
+  <path d="M45 30h7v19h-7z" fill="#f3f7fb" opacity=".9"/>
+  <path d="M10 52h44" stroke="#ff3158" stroke-width="2" stroke-linecap="round" opacity=".75"/>
+  <path d="M10 12h44" stroke="#00d4ff" stroke-width="2" stroke-linecap="round" opacity=".55"/>
+</svg>
